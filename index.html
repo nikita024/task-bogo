@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header">
+            <div class="hr-line"></div>
+            <h1>YAY! It's BOGO</h1>
+            <div class="hr-line"></div>
+        </div>
+
+        <div class="pricing-options">
+            <div class="pricing-option">
+                <label>
+                    <div class="option-info">
+                        <input type="radio" name="units" value="1">
+                        <div class="pricing-box">
+                            <span>1 Unit</span>
+                            <span class="discount-badge">10% Off</span>
+                            <div>Standard Price</div>
+                        </div>
+                    </div>
+                    <div class="price-container">
+                        <span class="price">$10.00 USD</span>
+                        <span class="original-price">$24.00 USD</span>
+                    </div>
+                </label>
+                <div class="variant-selector" style="display: none;"></div>
+            </div>
+
+            <div class="pricing-option most-popular">
+                <span class="most-popular-badge">MOST POPULAR</span>
+                <label>
+                    <div class="option-info">
+                        <input type="radio" name="units" value="2" checked>
+                        <span>2 Units</span>
+                        <span class="discount-badge">20% Off</span>
+                    </div>
+                    <div class="price-container">
+                        <span class="price">$18.00 USD</span>
+                        <span class="original-price">$48.00 USD</span>
+                    </div>
+                </label>
+                <div class="variant-selector"></div>
+            </div>
+
+            <div class="pricing-option">
+                <label>
+                    <div class="option-info">
+                        <input type="radio" name="units" value="3">
+                        <span>3 Units</span>
+                        <span class="discount-badge">30% Off</span>
+                    </div>
+                    <div class="price-container">
+                        <span class="price">$24.00 USD</span>
+                        <span class="original-price">$72.00 USD</span>
+                    </div>
+                </label>
+                <div class="variant-selector" style="display: none;"></div>
+            </div>
+        </div>
+
+        <div class="summary-container">
+            <span class="free-delivery">Free Delivery</span>
+            <span class="total">Total: $18.00 USD</span>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+        <div class="powered-by"><i>@ Powered by Pumper</i></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
